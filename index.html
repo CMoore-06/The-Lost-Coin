@@ -37,6 +37,7 @@
                                     Home
                                 </a>
                                 <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.html">Home</a></li>
                                     <li><a class="dropdown-item" href="index.html#history">History</a></li>
                                     <li><a class="dropdown-item" href="index.html#bio">About Me</a></li>
                                     <li><a class="dropdown-item" href="index.html#services">Services</a></li>
@@ -45,6 +46,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="reviews.html">Reviews</a>
+                            </li>
+                            <li class="navitem">
+                                <button style="position: relative; right: 8px; top: 5px;" popovertarget="pop">Contact Me</button>
                             </li>
                         </ul>
                     </div>
@@ -56,13 +60,23 @@
         <h3>Our History</h3>
         <div id="history" class="mb-3">
             <p>Begining in 2020, The Lost Coin has helped many people uncover tax fraud being commited right under their
-                noses! The name was inspired by the bible verses Luke: 8-10.</p>
+                noses! The name was inspired by the bible verse Luke: 8-10.</p>
             <p class="verse"> “Or suppose a woman has ten silver coins[a] and loses one. Doesn’t she light a lamp, sweep
                 the house and search carefully until she finds it? 9 And when she finds it, she calls her friends and
                 neighbors together and says, ‘Rejoice with me; I have found my lost coin.’ 10 In the same way, I tell
                 you, there is rejoicing in the presence of the angels of God over one sinner who repents.”</p>
             <img src="images/thelostcoinlogo.png" alt="The Lost Coin Logo.">
         </div>
+
+        <button popovertarget="pop" class="call card mb-3">
+            Contact now for free consultation!
+        </button>
+
+        <section popover id="pop">
+            <h3>Contact Me</h3>
+            <p>Phone number: <a href="tel:4174273600">417-427-3600</a></p>
+            <p>Email: <a href="mailto:info@thelostcoinllc.com">info@thelostcoinllc.com</a></p>
+        </section>
 
         <h3>About Me</h3>
         <div id="bio" class="mb-3">
@@ -102,24 +116,24 @@
         <h3>Meet the Team</h3>
         <div id="team" class="mb-3">
             <div id="first-row">
-                <div id="Sullivan" class="card">
+                <div id="Sullivan" class="card teammate">
                     <img src="images/michael-sullivan.jpg" alt="A headshot of Michael D. Sullivan">
                     <h5>Micheal D. Sullivan</h5>
                 </div>
             
-                <div id="Julie" class="card">
+                <div id="Julie" class="card teammate">
                     <img src="images/julie-lynch.jpg" alt="A headshot of Julie Lynch.">
                     <h5>Julie Lynch</h5>
                 </div>
             </div>
 
             <div id="second-row">
-                <div id="David" class="card">
+                <div id="David" class="card teammate">
                     <img src="images/david-hoines.jpg" alt="A headshot of David Hoines.">
                     <h5>David Hoines</h5>
                 </div>
 
-                <div id="Lucy" class="card">
+                <div id="Lucy" class="card teammate">
                     <img src="images/lucy-petry.jpg" alt="A headshot of Lucy Petry.">
                     <h5>Lucy Petry</h5>
                 </div>
