@@ -1,65 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Lost Coin LLC is a small business specializing in forensic accounting and helping to uncover tax fraud.">
-    <meta name="keywords" content="forensic accounting, taxes, tax fraud, fraud, tax, accounting, finances, financial fraud, theft, money theft, stolen money">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta name="description"
+        content="The Lost Coin LLC is a small business specializing in forensic accounting and helping to uncover tax fraud.">
+    <meta name="keywords"
+        content="forensic accounting, taxes, tax fraud, fraud, tax, accounting, finances, financial fraud, theft, money theft, stolen money">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <title>Home | The Lost Coin</title>
 </head>
+
 <body>
     <header>
         <h1>The Lost Coin LLC</h1>
         <h2>Finding what's lost, Fixing what matters</h2>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        &#9776;
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.html#history">History</a></li>
+                                    <li><a class="dropdown-item" href="index.html#bio">About Me</a></li>
+                                    <li><a class="dropdown-item" href="index.html#services">Services</a></li>
+                                    <li><a class="dropdown-item" href="index.html#team">Meet The Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="reviews.html">Reviews</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
     </header>
 
-    <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Home
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="index.html#history">History</a></li>
-                <li><a class="dropdown-item" href="index.html#bio">About Me</a></li>
-                <li><a class="dropdown-item" href="index.html#services">Services</a></li>
-            </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="reviews.html">Reviews</a>
-            </li>
-        </ul>
-        </div>
-    </div>
-    </nav>
-
-    <main>
-        <div id="history">
-            <h3>Our History</h3>
-            <p>Our company's history</p>
+    <main class="container">
+        <h3>Our History</h3>
+        <div id="history" class="mb-3">
+            <p>Begining in 2020, The Lost Coin has helped many people uncover tax fraud being commited right under their
+                noses! The name was inspired by the bible verses Luke: 8-10.</p>
+            <p class="verse"> “Or suppose a woman has ten silver coins[a] and loses one. Doesn’t she light a lamp, sweep
+                the house and search carefully until she finds it? 9 And when she finds it, she calls her friends and
+                neighbors together and says, ‘Rejoice with me; I have found my lost coin.’ 10 In the same way, I tell
+                you, there is rejoicing in the presence of the angels of God over one sinner who repents.”</p>
+            <img src="images/thelostcoinlogo.png" alt="The Lost Coin Logo.">
         </div>
 
-        <div id="bio">
-            <h3>About Me</h3>
-            <p>About me</p>
+        <h3>About Me</h3>
+        <div id="bio" class="mb-3">
+            <p>Lynette operates and manages The Lost Coin, LLC, deploying over 30+ years as a Certified Public
+                Accountant (CPA). She has been licensed through the State of Missouri since 2013. She is also a
+                Certified Fraud Examiner (CFE) credentialed by the Association of Certified Fraud Examiners, and she
+                holds a Certificate in Financial Forensics (CFF) through the American Institute of Certified Public
+                Accountants. Lynette obtained a Bachelor of Science degree in Accountancy from the University of
+                Illinois at Urbana-Champaign and a Master of Science degree in Economic Crime Management from Utica
+                College in New York.</p>
+
+            <p>Lynette began her accounting career with then prestigious Arthur Andersen & Co as an auditor. She spent
+                nearly 10 years in various internal audit, accounting, and finance positions at Hewlett-Packard Company,
+                and also has extensive experience as a real estate investor. She has prepared hundreds of individual and
+                corporate tax returns and payroll tax filings. More recently, she spent two years in New Orleans
+                performing fraud investigation and forensic accounting work for the largest class-action court ordered
+                settlement program in the history of the United States. She also spent nearly a year investigating
+                allegations of embezzlement at a closely-held family business, identifying stolen funds in excess of
+                $1.6 million along with fraudulently filed corporate tax returns and quarterly payroll reports. From her
+                public accounting roots at the largest and most respected global accounting firm in the world to her
+                years in Corporate America to her consulting experience with small family businesses, Lynette has
+                developed a proven track record as a well-rounded finance professional.</p>
+            <img src="images/headshot.png" alt="A piture of Lynette Rhodes, the founder of The Lost Coin.">
         </div>
 
-        <div id="services">
-            <h3>Services</h3>
-            <p>The services I offer.</p>
+        <h3>Services</h3>
+        <div id="services" class="mb-3">
+            <h5>Tax Resolution</h5>
+            <p>For most people, dealing with the IRS isn’t fun or easy. And when you get audited, it can be overwhelming. You DON’T want to deal with your tax situation yourself… but you don’t want to pay high rates for someone else to handle it either! We’ve got you covered – we’re a local company that provides personalized tax resolution service at a fraction of the cost of those large national tax firms. Our team has decades of experience helping taxpayers just like you resolve their issues quickly and easily!</p>
+
+            <h5>Forensic Accounting</h5>
+            <p>The Association of Certified Fraud Examiners estimates that organizations lose at least 5% of their revenues to fraud each year. So, if your business is bringing in  $1 million in annual revenues, you could be losing $50,000 of those hard-earned dollars to occupational fraud – fraud committed by employees against their employers. All fraud is committed by a person in a position of trust.</p>
+
+            <p class="disclaimer">The 2020 Report to the Nations provides a Fraud Prevention Checklist (on page 84) to assist organizations in evaluating the effectiveness of their internal control environment.</p>
+        </div>
+
+        <h3>Meet the Team</h3>
+        <div id="team" class="mb-3">
+            <div id="first-row">
+                <div id="Sullivan" class="card">
+                    <img src="images/michael-sullivan.jpg" alt="A headshot of Michael D. Sullivan">
+                    <h5>Micheal D. Sullivan</h5>
+                </div>
+            
+                <div id="Julie" class="card">
+                    <img src="images/julie-lynch.jpg" alt="A headshot of Julie Lynch.">
+                    <h5>Julie Lynch</h5>
+                </div>
+            </div>
+
+            <div id="second-row">
+                <div id="David" class="card">
+                    <img src="images/david-hoines.jpg" alt="A headshot of David Hoines.">
+                    <h5>David Hoines</h5>
+                </div>
+
+                <div id="Lucy" class="card">
+                    <img src="images/lucy-petry.jpg" alt="A headshot of Lucy Petry.">
+                    <h5>Lucy Petry</h5>
+                </div>
+            </div>
         </div>
     </main>
 
     <footer>
-        <!-- footer content here -->
+        <div id="disclaimers">
+            <p class="disclaimer"><span>Disclaimer: No Rendering of Advice</span> – The information contained within this website is provided for informational purposes only and is not intended to substitute for obtaining accounting, tax, or financial advice from a professional accountant. Presentation of the information via the Internet is not intended to create, and receipt does not constitute an accountant-client relationship. Internet subscribers, users and online readers are advised not to act upon this information without seeking the service of a professional accountant. Any U.S. federal tax advice contained in this website is not intended to be used for the purpose of avoiding penalties under U.S. federal tax law.</p>
+
+            <p class="disclaimer"><span>Disclaimer of Warranties and Limitations of Liability</span> – This website is provided on an “as is” and “as available” basis. Use of this website is at your own risk. We and our suppliers disclaim all warranties. Neither we nor our suppliers shall be liable for any damages of any kind with the use of this website.</p>
+
+            <p class="disclaimer"><span>Accuracy of Information</span> – While we use reasonable efforts to furnish accurate and up-to-date information, we do not warrant that any information contained in or made available through this website is accurate, complete, reliable, current or error-free. We assume no liability or responsibility for any errors or omissions in the content of this website or such other materials or communications.</p>
+
+            <p class="disclaimer"><span>Links to Third Party Websites</span> – For your convenience, this website may contain hyperlinks to websites and servers maintained by third parties. We do not control, evaluate, endorse or guarantee content found in those sites. We do not assume any responsibility or liability for the actions, products, services and content of these sites or the parties that operate them. Your use of such sites is entirely at your own risk.</p>
+        </div>
+
+        <div id="contact">
+            <a href="tel:4174273600">417-427-3600</a>
+            &nbsp;
+            <a href="mailto:info@thelostcoinllc.com">info@thelostcoinllc.com</a>
+        </div>
+
+        <p style="text-align: center;">&copy;2021 The Lost Coin LLC - All Rights Reserved.</p>
     </footer>
-    
+
 </body>
+
 </html>
