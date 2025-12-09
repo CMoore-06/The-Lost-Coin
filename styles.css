@@ -70,11 +70,12 @@ span {
 
 .call {
     width: 60%;
-    background-color: pink;
-    border-color: white;
+    background-color: #2C1964;
+    border: 2px solid white;
     text-align: center;
     justify-self: center;
     font-size: 20pt;
+    color: white;
 }
 
 .call:hover {
@@ -105,6 +106,21 @@ h2 {
 
 h3, h4, h5 {
     font-family: Italiana;
+}
+
+.navbutton {
+    position: relative; 
+    right: 8px; 
+    top: 5px;
+}
+
+#totop a {
+    color: white;
+    text-decoration: none;
+}
+
+#totop a:hover {
+    text-decoration: underline;
 }
 
 /* Images */
@@ -163,6 +179,17 @@ section a:hover {
     text-decoration: underline;
 }
 
+#totop {
+    position: fixed;
+    bottom: 20px;
+    z-index: 10;
+    background-color: #2C1964;
+    width: 3.5rem;
+    border: 3px solid white;
+    border-radius: 20%;
+    text-align: center;
+}
+
 /* Other */
 .navbar-toggler {
     color: white;
@@ -191,7 +218,8 @@ section a:hover {
 
     #history img {
         float: left;
-        padding-right: 10px;
+        position: relative;
+        right: 25px;
     }
 
     #bio img{
@@ -202,5 +230,55 @@ section a:hover {
 
     .teammate {
         width: 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        position: fixed;
+        top: 5px;
+        z-index: 10;
+    }
+
+    #history img {
+        width: 36%;
+    }
+
+    #bio img {
+        width: 30%;
+    }
+
+    #team {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 3 0px;
+    }
+
+    .teammate {
+        width: 30%;
+    }
+
+    #first-row, #second-row {
+        margin: 0px;
+        justify-content: space-evenly;
+    }
+
+    .navbutton {
+        top: 7.5px;
+        left: 1px;
+    }
+
+    section {
+        width: 30%;
+    }
+
+    .call {
+        width: 30%;
+        float: right;
+    }
+
+    #totop {
+        display: none;
     }
 }
