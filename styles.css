@@ -130,6 +130,12 @@ h3, h4, h5 {
     margin: 5px;
 }
 
+section img {
+    width: 100px;
+    position: relative;
+    bottom: 5px;
+}
+
 /* Containers */
 .teammate {
     width: 40%;
@@ -238,6 +244,7 @@ section a:hover {
         position: fixed;
         top: 5px;
         z-index: 10;
+        border: 2px solid white;
     }
 
     #history img {
